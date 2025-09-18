@@ -143,11 +143,14 @@ sns.heatmap(corr1, annot=True)
 ```
 <img width="1388" height="674" alt="image" src="https://github.com/user-attachments/assets/2ca66271-2fe6-4b10-bbc9-a70d11174d67" />
 
-# RESULT
-## SUMMARY:
+
+## summary:
 The Titanic dataset was imported and examined to understand its structure, size, and unique values.
 Missing values and categorical distributions were checked, and some columns were renamed for clarity.
 Various plots such as count plots, boxplots, scatterplots, joint plots, and pair plots were used to explore the data visually.
 Outliers were identified using boxplots and relationships between numerical variables were studied using scatterplots.
 Heatmaps were used to show correlations among numerical features like Age, Fare, Passenger Class, and Survival.
 From the analysis, patterns such as the influence of gender and passenger class on survival were observed, and overall data structure and relationships were better understood.
+
+# RESULT:
+Thus exploratory data analysis on the given data set has been executed successfully.
