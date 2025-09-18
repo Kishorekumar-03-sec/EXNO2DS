@@ -145,5 +145,9 @@ sns.heatmap(corr1, annot=True)
 
 # RESULT
 ## SUMMARY:
-I explored the Titanic dataset to understand what the data looks like and find patterns. I checked the size of the data, looked at missing values, and renamed some columns to make them clearer. Then I used plots to see how many people survived, how gender and passenger class affected survival, and how numerical features like Age and Fare were distributed. Boxplots and scatterplots helped me spot outliers and relationships between variables, and heatmaps showed how numerical columns were correlated. Overall, the EDA gave a good idea of the data’s structure, patterns, and relationships, which can help in further analysis or building a prediction model.
-
+The Titanic dataset was imported and examined to understand its structure, size, and unique values.
+Missing values and categorical distributions were checked, and some columns were renamed for clarity.
+Various plots such as count plots, boxplots, scatterplots, joint plots, and pair plots were used to explore the data visually.
+Outliers were identified using boxplots and relationships between numerical variables were studied using scatterplots.
+Heatmaps were used to show correlations among numerical features like Age, Fare, Passenger Class, and Survival.
+From the analysis, patterns such as the influence of gender and passenger class on survival were observed, and overall data structure and relationships were better understood.
